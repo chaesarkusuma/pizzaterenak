@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA TERENAK</title>
+    <link rel="shortcut icon" href="pizza.webp" type="image/x-icon">
+
+    <!-- css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>PEMESANAN PIZZA TERENAK</h1>
+        <p>Pizza terenak bikin kenyang</p>
+        <nav>
+            <a href="#Menu">lihat menu</a> |
+            <a href="#order">pesan sekarang</a> |
+            <a href="#contact">kontak kami</a>
+        </nav>
+    </header>
+
+    <!--Section: gambar promosi-->
+    <section>
+        <h2>PROMO TERBATAS!!</h2>
+        <img src="promo.jpg" alt="">
+        <p><mark>Diskon tahunan terbatas</mark> untuk semua cabang PIZZA TERENAK</p>
+        <ul>
+            <li>🍕Roti nya enak</li>
+            <li>🤤pizza nya sesuai namanya</li>
+            <li>👍🏻pizza wort it untuk di beli</li>
+        </ul>
+    </section>
+
+    <!--section: menu-->
+    <section id="Menu">
+        <h2>Menu pizza terenak</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                <th>Nama</th>
+                <th>Ukuran</th>
+                <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Keju moza</td>
+                    <td>kecil</td>
+                    <td>Rp 37.000</td>
+                    </tr>
+                    <tr>
+                    <td>vici</td>
+                    <td>medium</td>
+                    <td>Rp 50.000</td>
+                    </tr>
+                    <tr>
+                    <td>kara</td>
+                    <td>large</td>
+                    <td>Rp 150.000</td>
+                    </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- form pemesanan -->
+     <section id="order">
+        <h2>Formulir Pemesanan</h2>
+        <form action="">
+            <label for="nama">Your name</label>
+            <input type="text" id="nama" placeholder="masukan nama lengkap" required><br><br>
+            
+            <label for="email">Your Email</label>
+            <input type="text" id="email" placeholder="email.com" required><br><br>
+
+            <label for="ukuran">Ukuran pizza:</label><br>
+            <select name="ukuran" id="ukuran">
+                <option value="kecil">kecil</option>
+                <option value="medium">medium</option>
+                <option value="large">large</option>
+            </select><br><br>
+
+            <label>Pilih toping:</label><br>
+            <input type="checkbox" name="topping" value="keju"> keju
+            <input type="checkbox" name="topping" value="jamur"> jamur
+            <input type="checkbox" name="topping" value="daging"> daging <br><br>
+
+            <label>Pilih Jenis Pizza:</label><br><br>
+            <input type="radio" name="jenis" value="pepperoni">pepperoni
+            <input type="radio" name="jenis" value="vegetarian">vegetarian
+            <input type="radio" name="jenis" value="bbq chiken">bbq chiken <br><br>
+
+            <label for="catatan">Catatan Tambahan</label><br>
+            <textarea name="catatan" id="catatan" rows="4" cols="30" placeholder="Tanpa sambal."></textarea><br><br>
+
+            <button type="submit">Pesan Sekarang</button>
+          </form>
+        </section>
+<!-- section: kontak -->
+ <section id="contact">
+    <h2>kontak kami</h2>
+    <p>📍 Jl. Alif milbos No.1, Bogor</p>
+    <p>Email: <a href="mailto: @pizzaterenak.com">@pizzaterenak.com</a></p>
+
+    <!-- footer -->
+     <footer>
+        <hr>
+        <p><small>&copy;2025 PIZZA TERENAK</small></p>
+     </footer>
+ </section>
+    </div>
+</body>
+</html>
